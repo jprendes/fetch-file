@@ -1,0 +1,21 @@
+{
+    "name": "fetch-file-monkeypatch",
+    "version": "0.1.0",
+    "description": "Patch Nodejs fetch implementation to allow fetching file:// urls",
+    "type": "module",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jprendes/fetch-file-monkeypatch.git"
+    },
+    "keywords": ["fetch"],
+    "author": "Jorge Prendes",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jprendes/fetch-file-monkeypatch/issues"
+    },
+    "homepage": "https://github.com/jprendes/fetch-file-monkeypatch",
+    "dependencies": {
+      "mime-types": "^2.1.35"
+    }
+  }
